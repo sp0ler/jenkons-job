@@ -11,4 +11,9 @@ public class Controller {
     public ResponseEntity<String> greeting() {
         return ResponseEntity.ok("Hello world!");
     }
+
+    @RequestMapping("/test")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("Hello from test!");
+    }
 }
