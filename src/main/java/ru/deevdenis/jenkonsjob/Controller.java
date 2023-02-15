@@ -18,7 +18,7 @@ public class Controller {
         return ResponseEntity.ok("Hello from test!");
     }
 
-    @RequestMapping("/test")
+    @RequestMapping("/checkstyle")
     public ResponseEntity<String> checkstylePlugin() {
         int a;
 
